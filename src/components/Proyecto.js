@@ -18,7 +18,7 @@ export const Proyecto = () => {
             <div className='mask'>
                 <img src={proyecto.image} />
             </div>
-            <h1 className='heading'>Proyecto: {proyecto.nombre}</h1>
+            <h1 className='heading'>Project: {proyecto.nombre}</h1>
             <p>{proyecto.tecnologias}</p>
             <p>{proyecto.descripcion}</p>
             <a href={'https://'+proyecto.url} target='_blank'>Ir al proyecto</a>
