@@ -3,19 +3,19 @@ import React from 'react'
 export const Servicios = () => {
   return (
     <div className='page'>
-      <h1 className='heading'>Servicios</h1>
+      <h1 className='heading'>Services</h1>
       <section className='services'>
         <article className='service'>
-          <h2>Diseño web</h2>
-          <p>Hago que tu web se vea bonita</p>
+          <h2>Web Design</h2>
+          <p>I make your website look great.</p>
         </article>
         <article className='service'>
-          <h2>Desarrollo web</h2>
-          <p>Creo tu web desde cero</p>
+          <h2>Web Development</h2>
+          <p>I build your website from scratch</p>
         </article>
         <article className='service'>
-          <h2>Posicionamiento Web</h2>
-          <p>Hago que tu web aparezca en Google y la vea la gente</p>
+          <h2>Search Engine Optimization</h2>
+          <p>I help your website appear on Google and attract visitors</p>
         </article>
       </section>
     </div>

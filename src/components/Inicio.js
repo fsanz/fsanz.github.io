@@ -6,16 +6,16 @@ export const Inicio = () => {
   return (
     <div className='home'>
       <h1>
-        Hola soy <strong>Francisco Sanz</strong>, me dedico al Desarrollado Web y ofrezco mis servicios de <strong>programación</strong> y <strong>desarrollo</strong> en todo tipo de proyectos web.
+        Hi, I'm <strong>Francisco Sanz</strong>. I work as a Web Developer and offer my <strong>programming</strong> and <strong>development services</strong> for all kinds of web projects.
       </h1>
 
       <h2 className='title'>
-        Te ayudo a crear tu sitio o aplicación web, tener más visibilidad y relevancia en internet. <Link to='/contacto' >Contacta conmigo.</Link>
+        I help you create your website or web application, gain more visibility, and increase your relevance on the internet. <Link to='/contact' >Get in touch with me.</Link>
       </h2>
 
       <section className='last-works'>
-        <h2 className='heading'>Algunos de mis proyectos</h2>
-        <p>Estos son algunos de mis trabajos de desarrollo web.</p>
+        <h2 className='heading'>Some of the companies I worked for</h2>
+        <p>These are some of my professional experience.</p>
         <ListadoTrabajos limite="3" />
       </section>
     </div>
